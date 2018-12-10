@@ -1,0 +1,108 @@
+html {
+box-sizing: border-box;
+}
+*{
+  box-sizing:inherit;
+}
+body {
+    font-family: "Assistant", Arial, sans-serif;
+    color: #000;
+    background: #F0C3B9;
+    line-height: 1.5rem;
+    font-size: 1rem;
+}
+header {
+  font-family: "Playfair Display SC", Georgia, serif;
+  background-color: #FFCECA;
+  display:flex;
+  padding: 2rem;
+  justify-content: space-between;
+  align-items: center;
+}
+section {
+  padding: 2rem;
+}
+footer {
+  padding: 2rem;
+  display: flex;
+  text-align: center;
+  background-color: #F0D9D3;
+}
+img {
+  max-width: 100%;
+}
+h1, h2 {
+  text-align: center;
+  font-family: "Playfair Display SC", Georgia, serif;
+}
+p {
+  margin: auto;
+  text-align: center;
+  padding: 2rem;
+}
+a {
+    color: #E80C7A;
+}
+a:hover {
+    color: #FF530D;
+}
+.text{
+  overflow-wrap: normal;
+}
+#about {
+  background-color: #F0D9D3;
+  padding: 2rem;
+}
+#map1 {
+  height: 400px;
+  width: 100%;
+  border: 2px solid #000;
+  padding: 2em 3em;
+}
+#wrapper {
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+}
+#sectionTwo {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  align-items: center;
+  background-color: #fff;
+}
+#subway {
+  height: 200px;
+  width: 200px;
+}
+#chrysler {
+  height: 200px;
+  width: 200px;
+}
+#camera {
+  height: 200px;
+  width: 200px;
+}
+#bridge {
+  height: 200px;
+  width: 200px;
+}
+@media screen and (max-width: 750px) {
+body {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 2rem;
+}
+header {
+  font-size: 1.5rem;
+}
+#map1 {
+  height: 500px;
+  margin: 0;
+}
+.carousel-item {
+  height: 500px;
+}
+.carousel-caption {
+  padding: 1rem;
+}}

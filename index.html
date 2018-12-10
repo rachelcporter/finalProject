@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title> Final Project </title>
+	<link href="https://fonts.googleapis.com/css?family=Assistant|Playfair+Display+SC" rel="stylesheet">
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
+integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA==" crossorigin="">
+	<link rel="stylesheet" href="styles/bootstrap.min.css">
+	<link rel="stylesheet" href="styles/carousel.css">
+	<link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+
+<header>
+<h1> New York City Travel Guide </h1>
+</header>
+
+<section>
+<div id="about">
+<h2> About This Page </h2>
+<p> Welcome to this interactive web app guide I created for those travelling to New York City. In the summer of 2018, I lived in the Financial District in New York City for three months while interning for PR Consulting, a fashion consulting firm. While I was there, I learned the in's and out's of the city and discovered helpful tips and tricks to navigating the city, along with things to do. Please scroll though the page to learn more.</p>
+</div>
+</section>
+
+<section>
+<div id="wrapper">
+<h2> Neighborhood Guide</h2>
+<div id="map1">
+</div>
+<p> In the map above, click on any location to view a description about some of the popular neighborhood areas in New York and what to do while you're there.</p>
+<p><a href="https://www.timeout.com/">Information taken from TimeOut.com</a></p>
+</div>
+</section>
+
+<section>
+<div id="sectionTwo">
+<h2>Fast Facts Tip Sheet</h2>
+<p> Click on the images below to learn tips for travelling around New York City. </p>
+<img id="subway" src="images/subway.png" alt="Photo of a Subway">
+<p><a href="https://thenounproject.com/search/?q=nyc%20icons&i=85853">Subway by Jake Dunham from the Noun Project</a></p>
+<div id="subwayText" class="text">
+	<p> The best way to navigate the subway system in New York to avoid getting lost and stay on time is with the Google Maps iPhone app. This app has real-time updates and will show you the most efficient travel method. Goodle Maps can be used on a web browser or downloaded as an app. There is also an option that allows you to save directions for when you go underground and may lose cell service. For more information <a href="https://www.google.com/maps">click here.</a></p>
+</div>
+<img id="chrysler" src="images/empire.png" alt="Photo of a The Empire State Building">
+<p><a href="https://thenounproject.com/search/?q=nyc%20icons&i=85833">Empire State Building by Jake Dunham from the Noun Project</a></p>
+<div id="buildingText" class="text">
+	<p> The Empire State Building offers tours to the top that allows visitors to see the entire city of New York from 102 floors up. The tours happen year-round and offer several different experiences. A ticket for an adult starts at $58. For more information and links to buy your ticket, <a href="http://www.esbnyc.com/">click here.</a></p>
+</div>
+<img id="camera" src="images/camera.png" alt="Photo of a Camera">
+<p><a href="https://thenounproject.com/search/?q=nyc%20icons&i=85831">Camera by Jake Dunham from the Noun Project</a></p>
+<div id="cameraText" class="text">
+	<p> In the age of social media, if you're looking to improve your Instagram feed or take fun pictures with friends, New York is the place to go. In addition to the cityscapes and streets, there are also pop-up museums that are opened as exhibitions for the purpose of interactivity and taking pictures. There is the Color Factory, the Pint Shop, the Dream Machine and more. A lot are seasonal and will require you to purchase a ticket, but are a fun way to spend a few hours during your day. </p>
+</div>
+<img id="bridge" src="images/brooklyn.png" alt="Photo of the Brooklyn Bridge">
+<p><a href="https://thenounproject.com/search/?q=nyc%20icons&i=85840">Brooklyn Bridge by Jake Dunham from the Noun Project</a></p>
+<div id="bridgeText" class="text">
+	<p> Take a walking tour of the Brooklyn Bridge at sunrise to catch a view of the city. The bridge is 1.3 miles long and will take about an hour, but is definitely worth the time.</p>
+</div>
+</div>
+</section>
+
+<section>
+<h2> Best Views in the City </h2>
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+	<ol class="carousel-indicators">
+		<li data-target="#carouselExampleIndicators" data-slide-to="0"></li>
+		<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+		<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+	</ol>
+<div class="carousel-inner">
+	<!-- new carousel item -->
+	<div class="carousel-item active">
+		<img class="d-block w-100" src="images/rock.jpg" alt="Photo from the Top of the Rock">
+		<div class="carousel-caption d-none d-md-block">
+			<h5>Top of The Rock</h5>
+			<p>Here is a view of the Empire State building from the Top of the Rock. Photo by Gabriel Ramos on<a href="https://unsplash.com/photos/54RtibmHH28"> Unsplash.com.</a></p>
+		</div>
+	</div>
+<!-- new carousel item -->
+	<div class="carousel-item">
+		<img class="d-block w-100" src="images/liberty.jpg" alt="Photo of the Statue of Liberty">
+	<div class="carousel-caption d-none d-md-block">
+		<h5>Boat Tour</h5>
+		<p>Here is a view of the Statue of Liberty from the water. Photo by Tania Fernandez on<a href="https://unsplash.com/photos/HjPZBMR2PV4"> Unsplash.com.</a></p>
+	</div>
+</div>
+<!-- new carousel item -->
+<div class="carousel-item">
+	<img class="d-block w-100" src="images/dumbo.jpg" alt="Photo from Dumbo">
+	<div class="carousel-caption d-none d-md-block">
+		<h5>Dumbo, Brooklyn</h5>
+		<p>Here is a view of the Brooklyn Bridge from the streets of this popular Brooklyn neighborhood. Photo by Wes Hicks on<a href="https://unsplash.com/photos/-de1uAQ6Dc8"> Unsplash.com.</a></p>
+	</div>
+</div>
+</div>
+<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+	<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+	<span class="sr-only">Previous</span>
+</a>
+<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+	<span class="carousel-control-next-icon" aria-hidden="true"></span>
+	<span class="sr-only">Next</span>
+</a>
+</div>
+
+</section>
+
+<footer>
+<p> This page was created by Rachel Porter for JOU 3363.</p>
+</footer>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/popper.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/other.js"></script>
+<script src="js/places.json"></script>
+<script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js" integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA==" crossorigin=""></script>
+<script src="js/main.js"></script>
+</body>
+</html>
